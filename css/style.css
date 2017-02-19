@@ -124,6 +124,9 @@ table {
     background-color: black;
 }
 
+.navbar-brand {
+    display: none;
+}
 
 .active {
     color: #000000;
@@ -163,7 +166,36 @@ strong {
     width: 100%;
 }
 
-.overlay {
+.container {
+    position: relative;
+    object-fit: cover;
+    height:100%;
+    width: 100%;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+}
+
+.overlay-leadr {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background: rgba(51, 179, 191, 0.8);
+}
+
+.container:hover .overlay-leadr {
+  opacity: 1;
+}
+
+.overlay-chowbox {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -173,16 +205,33 @@ strong {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
+  background: rgba(235, 104, 65, 0.8);
 }
 
-.container:hover .overlay {
+.container:hover .overlay-chowbox {
+  opacity: 1;
+}
+
+.overlay-math {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background: rgba(204, 51, 63, 0.8);
+}
+
+.container:hover .overlay-math {
   opacity: 1;
 }
 
 .text {
   color: white;
-  font-size: 20px;
+  font-size: 50px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -281,3 +330,23 @@ footer {
 .social-icons .fa-xing,.social-icons .fa-xing-square{background-color:#00555C;} 
 .social-icons .fa-youtube,.social-icons .fa-youtube-play,.social-icons .fa-youtube-square{background-color:#C52F30;}
 .social-icons .fa-envelope-o{background-color:#FFFFFF;}
+
+@media (max-width: 768px) {
+    .text {
+        font-size: 20px;
+    }
+    
+    .navbar-header {
+        text-align: center;
+        width: 100%;
+    }
+    
+    .navbar-brand {
+        display: block;
+        float: none;
+    }  
+    
+    .navbar-default .navbar-brand {
+        color: #000000;
+    }    
+}
