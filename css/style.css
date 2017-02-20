@@ -175,10 +175,14 @@ strong {
 }
 
 .project-image {
-    height: 50%;
-    
+    height: auto;
 }
 
+.project-image img {
+    object-fit: cover;
+    height:100%;
+    width: 100%;
+}
 
 .profile-img {
 	display: inline-block;
