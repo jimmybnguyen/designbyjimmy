@@ -21,7 +21,7 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+	/*vertical-align: baseline;*/
 	font-family: 'Roboto', sans-serif;
 }
 /* HTML5 display-role reset for older browsers */
@@ -214,6 +214,7 @@ strong {
 	max-width: 1200px;
 	margin: 0 auto;    
 }
+
 .container-boot {
   padding-right: 15px;
   padding-left: 15px;
@@ -226,6 +227,7 @@ strong {
     object-fit: cover;
     height:100%;
     width: 100%;
+    padding: 0px;
 }
 
 .image {
