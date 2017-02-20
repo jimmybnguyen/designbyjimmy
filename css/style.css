@@ -57,6 +57,13 @@ h2 {
     padding-bottom: 20px;
 }
 
+h3 {
+    font-size: 1.5em; 
+    font-weight: 400;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
 .text-portfolio {
     line-height: 1.5em;
     font-size: 1.1em;
@@ -189,6 +196,15 @@ strong {
     padding-bottom: 50px;
 }
 
+.small-padding-img {
+    padding-top:0px;
+    padding-bottom:0px;
+}
+
+.small-padding-bot{ 
+    padding-bottom:0px;
+}
+
 .profile-image:hover .image_hover_bg{
     display:block
 }
@@ -223,13 +239,6 @@ strong {
 	max-width: 1200px;
 	margin: 0 auto;    
 }
-/*
-.container-boot {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}*/
 
 .container-boot {
   padding-right: 15px;
