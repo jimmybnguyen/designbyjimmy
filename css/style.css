@@ -21,7 +21,7 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+	/*vertical-align: baseline;*/
 	font-family: 'Roboto', sans-serif;
 }
 /* HTML5 display-role reset for older browsers */
@@ -49,6 +49,20 @@ table {
 }
 
 /* https://julienmelissas.com/animated-x-icon-for-the-bootstrap-navbar-toggle/*/ 
+
+h2 {
+    font-size: 2em; 
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.text-portfolio {
+    line-height: 1.25em;
+    font-size: 1.1em;
+    color: #757575;
+}
+
 .navbar-toggle {
   border: none;
   background: transparent !important;
@@ -82,7 +96,6 @@ table {
 }
 
 /***** Custom style *****/
-
 .navbar .navbar-nav {
   display: inline-block;
   float: none;
@@ -148,6 +161,11 @@ table {
 strong {
     font-weight: 400;
 }
+
+.big-spacing {
+    padding-bottom: 8em;
+}
+
 .left {
     float: left;
 }
@@ -166,11 +184,54 @@ strong {
     width: 100%;
 }
 
+.profile-image:hover .image_hover_bg{
+    display:block
+}
+
+.profile-img {
+	display: inline-block;
+	width: 500px;
+	padding-left: 50px;
+	padding-top: 50px;
+	float: left;    
+}
+
+.about-intro {
+	font-family: 'Roboto Slab', serif;      
+	font-size: 1.5em;
+	padding-bottom: 20px;      
+}
+.text-about {
+	display: inline-block;
+	width: 550px;
+	padding-left: 50px;
+	padding-top: 70px;
+}
+
+.text-about-p {
+	font-weight: 300;
+	font-size: 1.1em;
+	line-height: 1.5em;
+}
+
+.container-about {
+	max-width: 1200px;
+	margin: 0 auto;    
+}
+
+.container-boot {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .container {
     position: relative;
     object-fit: cover;
     height:100%;
     width: 100%;
+    padding: 0px;
 }
 
 .image {
@@ -239,12 +300,99 @@ strong {
   -ms-transform: translate(-50%, -50%);
 }
 
+.intro-section {
+    text-align: center;
+    padding-bottom: 3em;
+}
+
+.intro-section h1{
+    font-size: 2em;
+    padding-bottom: 30px;
+}
+
+.frontend-about {
+    padding-top: 10em;
+    padding-bottom: 10em;
+    text-align: center;
+}
+
+.frontend-about h2 {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.container-small, .container-large {
+    max-width: 100%;
+}
+
+.big-line {
+    line-height: 150%;
+}
+
+.horizontal-rule {
+    border: none;
+    color: #bbb;
+    background-color: #bbb;
+    height: 1px;  
+}
+
+.container-horizontal {
+    
+}
+
+.container-contact {
+    padding: 1em;
+}
+
+.contact-info {
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 200%;
+    font-family: 'IM Fell French Canon SC', serif;
+    letter-spacing: 2px;
+}
+
+.contact-info a {
+    text-transform: uppercase;
+    line-height: 200%;
+    font-family: 'IM Fell French Canon SC', serif;
+    color: #fb4f4f;
+}
+
+.intrinsic-container {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+}
+ 
+/* 16x9 Aspect Ratio */
+.intrinsic-container-16x9 {
+  padding-bottom: 56.25%;
+}
+ 
+/* 4x3 Aspect Ratio */
+.intrinsic-container-4x3 {
+  padding-bottom: 75%;
+}
+
+.intrinsic-container-invision {
+  padding-bottom: 65%;
+}
+ 
+.intrinsic-container iframe {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 50%;
+  height: 50%;
+}
 /* Footer */
 
 footer {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
 /*https://dcrazed.com/html-css3-social-media-buttons/*/
 /*Change icons size here*/
 .social-icons .fa {
@@ -332,6 +480,14 @@ footer {
 .social-icons .fa-envelope-o{background-color:#FFFFFF;}
 
 @media (max-width: 768px) {
+    
+    .big-spacing {
+        padding-bottom: 2em;
+    }    
+    .container-boot {
+        width: 750px;
+    }
+    
     .text {
         font-size: 20px;
     }
@@ -348,5 +504,49 @@ footer {
     
     .navbar-default .navbar-brand {
         color: #000000;
+    }  
+    
+    .container-small {
+        width: 300px;
+    }
+    
+    .container-large {
+        width: 970px;
+    }
+    
+    .frontend-about {
+        padding-top: 5em;
+        padding-bottom: 5em;
+        text-align: center;
+    }
+    
+    .intrinsic-container-invision {
+      padding-bottom: 212.328%;
     }    
+}
+
+@media (min-width: 992px) {
+    .container-small {
+        width: 500px;
+    }
+    
+    .container-boot {
+        width: 970px;
+    }
+    
+    .container-large {
+        width: 1170px;
+    } 
+} 
+@media (min-width: 1200px) {
+    .container-small {
+        width: 700px;
+    }
+    
+    .container-boot {
+        width: 1170px;
+    }
+    .container-large {
+        width: 1500px;
+    } 
 }
