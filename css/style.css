@@ -83,6 +83,10 @@ table {
 
 /***** Custom style *****/
 
+.profile-img {
+    max-width: 50%;
+    max-height: auto;
+}
 .navbar .navbar-nav {
   display: inline-block;
   float: none;
@@ -158,12 +162,27 @@ strong {
 
 .project-image {
     height: auto;
+    
 }
 
 .project-image img {
     object-fit: cover;
     height:100%;
     width: 100%;
+}
+
+.container-boot {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .container {
@@ -361,6 +380,11 @@ footer {
 .social-icons .fa-envelope-o{background-color:#FFFFFF;}
 
 @media (max-width: 768px) {
+    
+    .container-boot {
+        width: 750px;
+    }
+    
     .text {
         font-size: 20px;
     }
@@ -398,6 +422,11 @@ footer {
     .container-small {
         width: 500px;
     }
+    
+    .container-boot {
+        width: 970px;
+    }
+    
     .container-large {
         width: 1170px;
     } 
@@ -405,6 +434,10 @@ footer {
 @media (min-width: 1200px) {
     .container-small {
         width: 700px;
+    }
+    
+    .container-boot {
+        width: 1170px;
     }
     .container-large {
         width: 1500px;
