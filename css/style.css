@@ -65,7 +65,7 @@ h3 {
 }
 
 .text-portfolio {
-    line-height: 1.5em;
+    line-height: 1.6;
     font-size: 1.1em;
     color: #757575;
 }
@@ -436,7 +436,13 @@ strong {
     line-height: 150%;
     color: #757575;    
     line-height: 1.5em;
-    font-size: 1.1em;    
+    font-size: 1.1em;     
+}
+
+.max-width {
+    max-width: 32em;
+    margin-left: auto;
+    margin-right: auto;    
 }
 /* Footer */
 
