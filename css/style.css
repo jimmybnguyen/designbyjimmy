@@ -365,6 +365,7 @@ strong {
 
 .container-small, .container-large {
     max-width: 100%;
+    line-height: 1.3;
 }
 
 .big-line {
@@ -440,7 +441,7 @@ strong {
 }
 
 .max-width {
-    max-width: 32em;
+    max-width: 36em;
     margin-left: auto;
     margin-right: auto;    
 }
