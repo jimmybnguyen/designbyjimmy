@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <meta charset="UTF-8">
+    <title>Easy Chef</title>
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    
+    <!-- FontAwesome CSS -->
+    <link rel='stylesheet prefetch' href='https:////netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css'>
+
+    <!-- Roboto and Roboto Slab Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Roboto:100,300,400" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+      <!-- Static navbar -->
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed left" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar top-bar"></span>
+              <span class="icon-bar middle-bar"></span>
+              <span class="icon-bar bottom-bar"></span>
+            </button>
+            <p class="navbar-brand">Jimmy B. Nguyen</p>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="index.html">UX</a></li>
+              <li class="active"><a href="vr.html">VR</a></li>
+              <li><a href="front-end.html">Front-End</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="Jimmy%20B.%20Nguyen%20Resume.pdf" target="_blank">Resume</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>
+    </div> <!-- /container -->
+    
+    <section>
+        <div class="container-boot">
+        <div class="videoWrapper">
+            <iframe src="https://www.youtube.com/embed/0fsq4bHh3Ak" allowfullscreen></iframe>
+        </div>          
+        <div class="max-width">
+            <h2>About</h2>
+                <p class="text-portfolio">Easy Chef was created at <a href="http://16f.dubhacks.co/">DubHacks 2016</a> at the University of Washington. DubHacks is a 24-hour collegiate hackathon with a focus on creative tools to battle against society's biggest issues. Obesity was the issue that my team chose to focus on, and the solution we came up with was a game that will help people get engaged in the kitchen.</p> 
+
+
+            <h2>Research and Ideation</h2>
+                <p class="text-portfolio">The first hour was spent researching the prevalence and causes of obesity, and brainstorming ideas for our project. We limited ourselves to one hour for this phase because we wanted to leave plenty of time to develop our idea to demo for the judges.</p>
+                <h3>Research</h3>
+                <p class="text-portfolio">According to the <a href="https://www.niddk.nih.gov/health-information/health-statistics/Pages/overweight-obesity-statistics.aspx" target="_blank">National Institute of Diabetes and Digestive and Kidney Diseases</a>, roughly a third of adults are considered overweight, with another third being considered obese from 2009-2010. Not only that, the prevalence of obesity among adults more than doubled since the early 1960s. It is clear from these statistics that obesity was a valid issue for us to tackle, but why was it so? <a href="https://www.hsph.harvard.edu/obesity-prevention-source/obesity-causes/" target="_blank">Harvard School of Public Health</a> lists four reasons: prenatal and postnatal influences, unhealthy diets, too little activity and sleep, and toxic environment-food and physical activity.</p>
+                <h3>Ideation</h3>
+                <p class="text-portfolio">It would be far too difficult for us to take on all four of these reasons for obesity, so we chose to focus on unhealthy diets. There are many reasons for people to have unhealthy diets, but we thought the best way to combat this was to get people in the kitchen. When someone makes their own food, they know exactly what went into it. We wanted to show people that it does not have to be difficult to cook healthy and cheap meals. We thought about developing a mobile or web app focused on healthy eating, but we wanted a more interactive experience. In the end, we decided that creating a virtual reality game would be a fun and compelling way to get people engaged in the kitchen and practice cooking in a non-risk environment.</p>
+                
+            <h2>Design</h2>
+                <p class="text-portfolio">The biggest inspiration for this idea was <a href="https://www.youtube.com/watch?v=st-a0XKaVh4" target="_blank">Cooking Mama</a>, a fun and cute cooking game for touch-screen enabled devices. We wanted the game to be casual so that anyone can jump in and play, but also educational in terms of nutrition and kitchen skills. We wanted to focus on proper cutting techniques for the demo, such as correctly slicing bell peppers and other vegetables. To display nutrition information, our idea was to have a big screen that would update when a new ingredient is added. We also wanted this screen to have step-by-step instructions that would update as tasks get done.</p><br>
+                <p class="text-portfolio">To quickly prototype our idea, we chose to use the Wizard of Oz technique. We figured that this would be the fastest and most efficient way to see our idea in action, since we wanted to dedicate as much time as we could for the development phase. We had one person pretending to cook with the Vive controllers and two people using a whiteboard to simulate a big screen, displaying nutrition information and cooking instructions. From this, we were able to determine the steps that players will go through in our demo, and the location of key appliances and tools such as the fridge, stove, and cutting board. </p><br>
+        </div>    
+        <img class="img-responsive" src="img/easy_chef-sketch.jpg" alt="Sketch for Easy Chef" /> 
+        <div class="max-width">
+                <p class="text-portfolio">We placed everything close together to minimize travel distance for players. This is for two reasons: locomotion can introduce problems in our stimulation (especially for people who are new to VR), and adding locomotion options may make the stimulation unnecessarily complicated. We were planning on using the grip buttons on the Vive controllers for holding the knife and opening doors, and the trigger button to pick up other objects. We did not want to introduce any more buttons because we did not want our players to spend time figuring out how to move, but rather to focus on the cooking experience. </p>
+
+            <h2>Development</h2>
+                <p class="text-portfolio">We used <a href="https://unity3d.com/" target="_blank">Unity3D</a> as our game engine because there is a large community surrounding it, allowing us to fix bugs and find resources easier. The primary two interactions that had to be created were opening/closing appliances, and cutting vegetables with the knife. To create our models, we used <a href="https://www.blender.org/" target="_blank">Blender</a>.</p><br>
+                <p class="text-portfolio">The main interactions I worked on was picking up objects and cutting vegetables. The first step was to make it possible to pick up the knife with the Vive controllers by using the grip buttons. We used <a href="https://github.com/thestonefox/VRTK" target="_blank">Virtual Reality Toolkit</a> (VRTK) to help us accomplish this; however, we discovered that the 3D model of the mittens we were using did not working correctly with the scripts in VRTK. We decided to revert back to the default Vive controllers due to time constraints. While we managed to pick up the knife using the grip buttons on the controller, the knife was unable to cut the vegetables once it collided it with it. We could not figure this out in a timely manner, so we ditched the knife and scripted the controllers to cut the food objects.</p>
+  
+            <h2>Results and Reflection</h2>
+                <p class="text-portfolio">Despite the compromises that we made, we managed to win the Best VR Hack award. The one constructive feedback we received from a judge was to incorporate an on-boarding process in the game. We found ourselves yelling to the judges while they were in the simulation to tell them which button to press for certain items. </p><br>
+                <p class="text-portfolio">The screen we had to display cooking instructions (we never got around to adding in nutrition information) was mostly ignored. From this, I have learned that static text is perhaps not the best way to get people's attention. Replacing this screen with a robot AI that instructs the player on what to do next, or perhaps having more visual and auditory cues to direct attention towards the screen, may have been more effective.</p> 
+            </div>                                                                                   
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <ul class="social-icons icon-circle icon-rotate list-unstyled list-inline center"> 
+              <li><a href="http://github.com/jimmybnguyen" target="_blank"><i class="fa fa-github"></i></a> </li>   
+              <li><a href="http://linkedin.com/in/jimmybnguyen" target="_blank"><i class="fa fa-linkedin"></i></a> </li>
+              <li><a href="http://twitter.com/jimmybnguyen" target="_blank"><i class="fa fa-twitter"></i></a> </li>
+              <li><a href="https://www.youtube.com/channel/UC0jjW9xYUoyQt8B9RR7cF_w" target="_blank"><i class="fa fa-youtube"></i></a> </li>
+            </ul>
+        </div>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> 
+</body>
+<footer>
+    
+</footer>
+</html>
