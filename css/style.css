@@ -64,6 +64,9 @@ h3 {
     padding-bottom: 15px;
 }
 
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+}
 .text-portfolio {
     line-height: 1.6;
     font-size: 1.1em;
@@ -169,6 +172,10 @@ strong {
     font-weight: 400;
 }
 
+.strong-writing {
+    font-weight: 600;
+}
+
 .big-spacing {
     padding-bottom: 8em;
 }
@@ -245,6 +252,11 @@ strong {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+}
+
+
+.writing p {
+    padding-bottom: 10px;
 }
 @media (min-width: 768px) {
   .container-boot {
