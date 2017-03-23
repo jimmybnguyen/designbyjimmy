@@ -20,7 +20,7 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-    width: 100%;
+ 
 	/*vertical-align: baseline;*/
 	font-family: 'Roboto', sans-serif;
 }
@@ -67,6 +67,11 @@ h3 {
 a:hover, a:visited, a:link, a:active {
     text-decoration: none;
 }
+
+img {
+    width: 100%;
+}
+
 .text-portfolio {
     line-height: 1.6;
     font-size: 1.1em;
