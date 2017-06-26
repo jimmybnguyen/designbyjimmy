@@ -58,6 +58,17 @@ html {
 body {
   margin: 0; 
   font-weight: 500;
+
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.navbar-link {
+    text-transform: uppercase; 
+    letter-spacing: 1.5px;
 }
 
 section {
