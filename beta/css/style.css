@@ -132,7 +132,24 @@ h2 {
 
 .navbar .navbar-collapse {
   text-align: center;
+  max-height: 100vh;
+  height: 100vh;
+      background: rgba(255, 255, 255, 1);
 }
+
+.collapse .collapsing {
+    -webkit-transition: none;
+    transition: none;
+}
+
+.no-transition {
+  -webkit-transition: height 0.01s;
+  -moz-transition: height 0.01s;
+  -ms-transition: height 0.01s;
+  -o-transition: height 0.01s;
+  transition: height 0.01s;
+}
+
 section {
   width: 100%;
   padding: 0 7%;
