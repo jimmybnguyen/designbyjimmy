@@ -68,6 +68,14 @@ h2 {
     padding-bottom: 20px;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
+.center {
+  text-align: center;
+}
+
 .navbar-brand,
 .navbar-nav li a {
     line-height: 75px;
