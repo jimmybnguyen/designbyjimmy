@@ -266,6 +266,12 @@ section {
   padding-bottom: 0.5em;
 }
 
+.galleryItem img:hover {
+  transition: .5s ease;
+  background-color: #ffffff;
+  opacity: 0.25;
+}
+
 .project-tags {
   text-align: center;
   line-height: 1.5;
