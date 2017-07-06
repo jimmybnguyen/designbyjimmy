@@ -95,7 +95,8 @@ a:hover {
 .navbar-brand {
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: 1.5em;
+    font-size: 1.75em;
+    font-weight: 600;
 }
 
 .navbar-link {
@@ -193,6 +194,38 @@ section {
   padding-top: 1.2em;
   padding-bottom: 1.2em;
   line-height: 1.3;
+}
+.button {
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;    
+    height: auto;
+    padding: 8px 12px;
+    background: #333333;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;    
+    border: 2px solid #333333;
+    border-radius: 1px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    white-space: normal;
+    line-height: normal;
+}
+
+.button-black:hover {
+    background-color: #FFFFFF;
+    color:#333333;
+    border-color: #333333;
+}
+
+.button-link {
+    text-decoration: none;
+    font-weight: normal;
+    color: #333333;
+    cursor: pointer;
 }
 
 /******https://codepen.io/anon/pen/KqobNN****/
@@ -474,16 +507,26 @@ footer {
         background: rgba(255, 255, 255, 1);
     }
 
+
+    .navbar-brand {
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 1.25em;
+        font-weight: 600;
+        margin-left: auto;
+    }    
+
+
     /**need to verticle align menu still**/
     .navbar-collapse {
       vertical-align: center;
       text-align: center;
     }
 
-  .projects {
-    padding-top: 6em;
-    padding-bottom: 6em;
-  }    
+    .projects {
+      padding-top: 6em;
+      padding-bottom: 6em;
+    }    
 }
 @media (max-width: 992px) {
   
