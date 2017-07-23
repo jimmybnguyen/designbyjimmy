@@ -58,7 +58,6 @@ html {
 body {
   margin: 0; 
   font-weight: 500;
-
 }
 
 h2 {
@@ -66,6 +65,13 @@ h2 {
     font-weight: 500;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.5em; 
+    font-weight: 400;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 a:hover {
@@ -170,6 +176,10 @@ section {
   display: table;
   margin: 0;
   max-width: none;
+}
+
+.section-pad-top {
+    padding-top: 100px;
 }
 
 .research, .about {
@@ -378,6 +388,33 @@ section {
 	line-height: 1.5em;
 }
 
+.max-width {
+    max-width: 36em;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+.text-portfolio {
+    line-height: 1.6;
+    font-size: 1.1em;
+    color: #757575;
+}
+
+.img-responsive {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.img-foodie-persona {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.img-center {
+    display: block;
+    margin: 0 auto;
+}
+
 .horizontal-rule {
     border: none;
     color: #bbb;
@@ -398,6 +435,16 @@ section {
     line-height: 200%;
     font-family: 'IM Fell French Canon SC', serif;
     color: #fb4f4f;
+}
+
+.portfolio-list {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    line-height: 150%;
+    color: #757575;    
+    line-height: 1.5em;
+    font-size: 1.1em;     
 }
 
 /* Footer */
