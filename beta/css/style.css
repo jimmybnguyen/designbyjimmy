@@ -27,7 +27,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    padding-top: 100px;
 }
 ol, ul {
 	list-style: none;
@@ -178,17 +179,18 @@ section {
   max-width: none;
 }
 
-.section-pad-top {
-    padding-top: 100px;
-}
-
 .research, .about {
     padding-top: 6em;
 }
 
 .intro {
-  height: 100vh;
-  background-color: #373B44;
+  height: 90vh;
+  background-color: #212121;
+}
+
+.problem-statement {
+    height: 80vh;
+    background-color: #212121;
 }
 
 .content {
@@ -204,6 +206,30 @@ section {
   padding-top: 1.2em;
   padding-bottom: 1.2em;
   line-height: 1.3;
+}
+
+.problem-headline {
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    font-size: 3em;
+    padding-bottom: 1.5em;
+}
+
+.problem-text {
+    color: white;
+    font-size: 1.5em;
+    line-height: 1.5;
+    padding-bottom: 0.3em;
+}
+
+.problem-overview-header {
+    color: white;
+    padding-top: 1.5em;
+    font-size: 1.5em;
+    font-weight: 600;
+
 }
 .button {
     -webkit-transition: all 300ms ease;
