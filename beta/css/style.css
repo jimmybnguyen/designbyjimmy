@@ -28,7 +28,6 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
     line-height: 1;
-    padding-top: 100px;
 }
 ol, ul {
 	list-style: none;
@@ -57,8 +56,9 @@ html {
 }
 
 body {
-  margin: 0; 
-  font-weight: 500;
+    margin: 0; 
+    font-weight: 500;
+    padding-top: 95px;
 }
 
 h2 {
@@ -227,10 +227,55 @@ section {
 .problem-overview-header {
     color: white;
     padding-top: 1.5em;
+    padding-bottom: 0.5em;
     font-size: 1.5em;
     font-weight: 600;
-
 }
+
+.problem-overview-info {
+    color: #212121;
+    font-size: 1.25em;
+    font-weight: 300;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding-top: 75px;
+    }
+    .problem-headline {
+        font-size: 2em;
+        padding-bottom: 1.0em;
+        margin-top: 50px;
+    }
+
+    .problem-text {
+        font-size: 16px;
+        line-height: 1.4;
+        padding-bottom: 0.2em;
+    }
+
+    .problem-overview-header {
+        color: white;
+        padding-top: 1.5em;
+        padding-bottom: 0.5em;
+        font-size: 1.0em;
+    }
+
+    .problem-overview-info {
+        color: #212121;
+        font-size: 1.0em;    
+        margin: 5px;
+    }
+
+    .mobile-margin-bottom {
+        margin-bottom: 50px;
+    }
+}
+
 .button {
     -webkit-transition: all 300ms ease;
     -moz-transition: all 300ms ease;
