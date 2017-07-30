@@ -179,10 +179,6 @@ section {
   max-width: none;
 }
 
-.research, .about {
-    padding-top: 6em;
-}
-
 .intro {
   height: 90vh;
   background-color: #212121;
@@ -347,7 +343,7 @@ section {
 /****************************************/
 
 .before-section {
-    padding-top: 8em;
+    padding-top: 2em;
     text-align: center;
     padding-bottom: 3em;
 }
