@@ -72,12 +72,95 @@
         </div>
     </section>
 
-    <section class="section">
-        <div class="container">
-           <div class="max-width">
-    
-            </div>                                    
-        </div>
+    <section class="project-section">
+        <div class="max-width">
+            <h2>About</h2>
+            <p class="text-portfolio">Leadr was created for Design Thinking (INFO 360) taught by <a href="http://faculty.washington.edu/ajko/" target="_blank">Andrew J. Ko</a>. For our final project, we were tasked with:</p>
+            <ul class="portfolio-list">
+                <li>1. Learning about a problem that another person in the class has </li>
+                <li>2. Articulating and refine our understanding of that problem</li>
+                <li>3. Defining a general characterization of that problem</li>
+                <li>4. Becoming an expert of that problem through research and interviews</li>
+                <li>5. Ideating solutions to the problem</li>
+                <li>6. <a href="https://invis.io/SG9FPY8NE" target="_blank">Prototyping solutions</a> to the problem</li>
+                <li>7. Detailing one solution in a form of a <a href="https://drive.google.com/file/d/0BwZrUtGyvIaDMFMzQzlPQ0M4VEk/view" target=_"blank">design specification</a></li>
+                <li>8. Communicating the solution as a <a href="https://www.youtube.com/watch?v=xhGQfvq4xyA" target="_blank">video prototype</a></li>
+            </ul>
+            <p class="text-portfolio">My design partner was <a href="http://5tigerjelly.com/" target="_blank">Chris Oh</a>.</p>                
+        </div>                                    
+    </section>
+
+    <section class="project-section">
+        <div class="max-width">
+            <h2>Interview</h2>
+            <p class="text-portfolio">We selected another pair of student as our "sister" team and interviewed one of them to find problems that we could solve for college students. We asked questions such as, “What activities give you stress, and why” and “What are some activities that you enjoy doing.” Some questions probed around leisure activities, such as “How often do you go on trips or enjoy activities with friends.” We found that planning an event with multiple friends can be cumbersome when considering everyone’s preference and opinions, which leads to indecisiveness. Our interviewee stated that it is important for students to attend social events with others to reduce stress, but it becomes difficult to plan when there are simple difficulties such as time arrangements when under the load of schoolwork.</p> 
+        </div>                                    
+    </section>
+
+    <section class="project-section">
+        <div class="max-width">
+            <h2>Problem</h2>
+            <p class="text-portfolio">From the answers that our interviewee provided, <strong>we discovered that the difficulties with planning activities with a group of friends is not necessarily with just the logistical details, but also with coming up with a decision</strong>. Every participant of an activity introduces factors such as time, budget, and interests, and these factors can conflict. This conflict creates an indecisiveness environment. In a casual group, there is usually equal power spread among the members. An environment where everyone is equal can make it difficult for an individual to break a deadlock when no one is willing to evaluate the current conflicts and situations to come up with a final decision for the whole group. Our interviewee have had events cancelled due to the group’s inability to make a decision for time-sensitive activities. Both of these play a negative role in the environment of a group, and can create conflicts later on due to reduced trust in the group’s ability to create and attend social gatherings.</p>
+        </div>                                    
+    </section>
+
+    <section class="project-section">
+        <div class="max-width">
+            <h2>Solution</h2>
+            <p class="text-portfolio">To solve this problem, we chose to create a mobile app that uses an alternating leadership system in groups. Instead of every group member having equal equity at the same time, this systems allows everyone to have equal equity over time.</p><br>
+            <p class="text-portfolio">The group starts out with one leader who will create an event for the group. Once the event is made, the creator is sent to the very back of the queue, and a new leader takes their place to plan the next event. Out of all the decision making methods out there, we found that this is one of the better and simpler ways to evoke fun and fair activities within groups.</p><br>
+            <p class="text-portfolio">One of the more popular ways to decide from a variety of options is to have a vote. However, a simple majority rule is unfair to people with minority viewpoints. This alternating leadership system allows everyone in a group to have a chance to be an authoritative figure, which has the added benefit of getting people comfortable with being a leader. Lastly, our research shows that <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.124.7424&rep=rep1&type=pdf" target="_blank">having a leader in a group often results in a higher decision-quality relative to majority-decision making</a>.</p>
+            <img class="img-responsive" src="img/leadr-flow.png" alt="User flow for Leadr" />
+        </div>                                    
+    </section>
+
+    <section class="project-section">
+        <div class="max-width">
+            <h2>Wireframes</h2>
+            <p class="text-portfolio">Our first idea used a proposal mechanic. A leader would propose an event to the whole group, which a group member could veto. We wanted the group members to have some power to prevent undesirable situations. Each group member could only veto once, until the leader changed. The leader switched once the event has happened. This prevented members from abusing the system, and to encourage them to only veto an event as a last resort.  </p><br>
+            <p class="text-portfolio">Leadr also offered the ability to plan upcoming events in groups through text posts and instant messaging. This would behave similarly to Facebook groups, where members can create posts, and other members can react and reply to those posts.  </p><br>
+            <p class="text-portfolio">We tested our low-fidelity screens with our sister team to confirm that we were solving the problem they were having. They found the idea of an alternating leadership system with proposals interesting and did not have many questions regarding the design.</p>
+        </div>                                    
+    </section>
+
+    <div class="container">
+        <img class="img-responsive" src="img/leadr-wireframes.png" alt="Wireframes for Leadr" />
+    </div>
+
+    <section class="project-section">
+        <div class="max-width">
+            <h2>Mockups Ver. 1</h2>
+            <p class="text-portfolio">We tested our proposal mechanic with high-fidelity screens to six other teams in the class. We had them do three tasks: create a new group, create a new event in a specific group, and veto a proposed event.</p><br>
+            <p class="text-portfolio">From our tests, we discovered that people were using the "OK" and "VETO" buttons as a way to RSVP for an event. This was a major breakdown in our design, since vetoing an event would cancel it completely for the whole group. There were also many questions and concerns regarding the vetoing mechanic. What if the leader just creates the same event after it has been vetoed? Why only one veto? What if the group had ten, twenty, or fifty members? Would this still work?</p><br>
+            <p class="text-portfolio">We also discovered another problem with our leadership system. The leader for a group would also only change after an event has happened because we did not want to constantly switch leaders when an event would get created, and when an event would get vetoed. However, this limited the group to only plan one event at a time, which could be frustrating for some groups.</p>  
+            <p class="text-portfolio">Lastly, our design had problems with the social aspect. The placement of the "post" button was also confusing for many of our testers. The button was meant to be for creating a new text post in the group, but since it was so far away from the actual posts, it looked out of place. One of our tester also expressed concerns about having to use another social media application to communicate with her friends.</p><br>
+            <p class="text-portfolio">The add group, calendar, and search screen received no comments, so they were left unchanged.</p> 
+        </div>                                    
+    </section>
+
+    <div class="container">
+        <img class="img-responsive" src="img/leadr-high-fidelity-v1.png" alt="High fidelity screens version one for Leadr" />
+    </div>
+
+    <section class="project-section">
+        <div class="max-width">
+            <h2>Mockups Ver. 2</h2>
+            <p class="text-portfolio">We scraped the idea of proposing an event. The leader makes the event for the group, and then the leader changes. Leaders also have the ability to pass leadership if they wish, in case they are uncomfortable with planning the event, or simply cannot. The ability to veto an event had been removed because it was too confusing and too difficult to make it work. Group member can only RSVP for events. </p><br>
+            <p class="text-portfolio">We also completely removed the ability to communicate with other group members in Leadr, users must rely on a third-party application to generate ideas and talk about constraints. This was done to simplified the app's functionality, and because Chris and I had a deadline to meet. We felt that we could not design a great communication experience in the time we had left. </p>
+        </div>                                    
+    </section>
+
+    <div class="container">
+        <img class="img-responsive" src="img/leadr-high-fidelity-v2.png" alt="High fidelity screens version one for Leadr" />
+    </div>
+
+    <section class="project-section">
+        <div class="max-width">
+            <h2>Deliverables</h2>
+            <p class="text-portfolio"><a href="https://drive.google.com/file/d/0BwZrUtGyvIaDMFMzQzlPQ0M4VEk/view" target="_blank">Design Specification</a></p><br>
+            <p class="text-portfolio"><a href="https://www.youtube.com/watch?v=xhGQfvq4xyA" target="_blank">Video Prototype</a></p><br>  
+            <p class="text-portfolio"><a href="https://invis.io/SG9FPY8NE" target="_blank">Interactive Prototype</a></p><br>
+        </div>                                    
     </section>
 
     <footer>
