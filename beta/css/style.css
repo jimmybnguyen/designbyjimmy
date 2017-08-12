@@ -490,8 +490,11 @@ section {
 }
 
 .img-responsive {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .img-foodie-persona {
