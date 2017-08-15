@@ -76,6 +76,10 @@ h2 {
     padding-bottom: 15px;
 }
 
+strong {
+    font-weight: 600;
+}
+
 a:hover {
   text-decoration: none;
 }
