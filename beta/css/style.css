@@ -70,7 +70,7 @@ h2 {
 }
 
 .h3-style {
-    font-size: 1.5em; 
+    font-size: 1.3em; 
     font-weight: 400;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -384,6 +384,7 @@ section {
 
 .strong-writing {
     font-weight: 600;
+    font-size: 0.95em;
 }
 
 .writing p {
