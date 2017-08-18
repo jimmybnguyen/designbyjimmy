@@ -70,7 +70,7 @@ h2 {
 }
 
 .h3-style {
-    font-size: 1.5em; 
+    font-size: 1.3em; 
     font-weight: 400;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -202,8 +202,7 @@ section {
 }
 
 .project-section {
-    margin-top: 4em;
-    margin-bottom: 4em;
+    margin-top: 4.0em;
 }
 .intro {
   height: 90vh;
@@ -385,6 +384,7 @@ section {
 
 .strong-writing {
     font-weight: 600;
+    font-size: 0.95em;
 }
 
 .writing p {
@@ -495,7 +495,6 @@ section {
 
 .img-responsive {
     padding-top: 4em;
-    padding-bottom: 4em;
     display: block;
     margin: 0 auto;
     text-align: center;
