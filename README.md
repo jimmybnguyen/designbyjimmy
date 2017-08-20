@@ -1,2 +1,0 @@
-# designbyjimmy
-Portfolio Website
