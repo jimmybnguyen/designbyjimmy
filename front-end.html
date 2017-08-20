@@ -15,50 +15,60 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="container">
-      <!-- Static navbar -->
-      <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed left" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar top-bar"></span>
-              <span class="icon-bar middle-bar"></span>
-              <span class="icon-bar bottom-bar"></span>
-            </button>
-            <p class="navbar-brand">Jimmy B. Nguyen</p>
-          </div>
-          <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-              <li><a href="index.html">UX</a></li>
-              <li><a href="vr.html">VR</a></li>
-              <li class="active"><a href="front-end.html">Front-End</a></li>
-              <li><a href="writing.html">Writing</a></li> 
-              <li><a href="about.html">About</a></li>
-              <li><a href="Jimmy%20B.%20Nguyen%20Resume.pdf" target="_blank">Resume</a></li>
-            </ul>
-          </div><!--/.nav-collapse -->
-        </div><!--/.container-fluid -->
-      </nav>
-    <section class="intro-section">
+    <header>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed left no-transition" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar top-bar"></span>
+                    <span class="icon-bar middle-bar"></span>
+                    <span class="icon-bar bottom-bar"></span>
+                    </button>
+                <a class="navbar-brand" href="index.html"><h1>JIMMY B. NGUYEN</h1></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div id="navbar" class="navbar-collapse collapse no-transition">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="navbar-link active"><a href="index.html">WORK</a></li>
+                    <li class="navbar-link"><a href="research.html">RESEARCH</a></li>
+                    <li class="navbar-link"><a href="about.html">ABOUT</a></li>
+                </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </header>
+    <section class="before-section">
         <h1>Front-End Development</h1>
         <div class="container container-small">
             <p classs="big-line">The projects below were created with HTML, CSS, JS, and/or React.js. Source code can be found on my <a href="https://github.com/jimmybnguyen" target="_blank">GitHub</a>.</p>
         </div>
-    </section>  
-    </div> <!-- /container -->
+    </section>
     
         <div class="project-image">
-            <img src="img/apex-cover.jpg" />
+            <img src="img/ivystart-cover.png" />
+        </div>
+        <section class="frontend-about">
+            <div class="container container-small">
+                <h2>IvyStart</h2>
+                    <p class="big-line">I redesigned and developed the website for IvyStart, a co-living startup in NYC. <br> <a href="http://ivystart.house/" target="_blank">Visit Website</a><br> <a href="http://jimmybnguyen.github.io/ivystart/old" target="_blank">Old Website</a></p>
+                </div>
+        </section>  
+    
+        <div class="project-image">
+            <img src="img/apex-cover.png" />
         </div>
         <section class="frontend-about">
             <div class="container container-small">
                 <h2>APEX VR SUMMIT 2017</h2>
                     <p class="big-line">I created a website for an event my club, UW Virtual Reality Association, co-hosted. The website served as a quick way for people to get information about the event and to buy tickets. <br> <a href="http://uwvra.com/apex2017/" target="_blank">Visit Website</a></p>
                 </div>
-        </section>       
+        </section>  
+
         <div class="project-image">
-            <img src="img/reactmovies-cover.jpg" />
+            <img src="img/reactmovies-cover.png" />
         </div>       
        
         <section class="frontend-about">
@@ -69,7 +79,7 @@
         </section>  
                
         <div class="project-image">
-            <img src="img/weatherboot-cover.jpg" />
+            <img src="img/weatherboot-cover.png" />
         </div>
         
         <section class="frontend-about">
@@ -78,22 +88,20 @@
                     <p class="big-line">I used the Open Weather Map API to create a simple weather application. The user can use their current location, or search for a location based on zip code or city name.<br> <a href="https://info343e-au16.github.io/challenges-jimmybnguyen/challenge5/" target="_blank">Visit Website</a></p>
                 </div>
         </section>  
-        
-    
-    <footer>
-        <div class="container">
-            <ul class="social-icons icon-circle icon-rotate list-unstyled list-inline center"> 
-              <li><a href="http://github.com/jimmybnguyen" target="_blank"><i class="fa fa-github"></i></a> </li>   
-              <li><a href="http://linkedin.com/in/jimmybnguyen" target="_blank"><i class="fa fa-linkedin"></i></a> </li>
-              <li><a href="http://twitter.com/jimmybnguyen" target="_blank"><i class="fa fa-twitter"></i></a> </li>
-              <li><a href="https://www.youtube.com/channel/UC0jjW9xYUoyQt8B9RR7cF_w" target="_blank"><i class="fa fa-youtube"></i></a> </li>
-            </ul>
-        </div>
-    </footer>
+    </body>
+        <footer>
+            <div class="container">
+                <ul class="social-icons icon-circle icon-rotate list-unstyled list-inline center"> 
+                <li><a href="http://github.com/jimmybnguyen" target="_blank"><i class="fa fa-github"></i></a> </li>   
+                <li><a href="http://linkedin.com/in/jimmybnguyen" target="_blank"><i class="fa fa-linkedin"></i></a> </li>
+                <li><a href="http://twitter.com/jimmybnguyen" target="_blank"><i class="fa fa-twitter"></i></a> </li>
+                <li><a href="https://www.youtube.com/channel/UC0jjW9xYUoyQt8B9RR7cF_w" target="_blank"><i class="fa fa-youtube"></i></a> </li>
+                </ul>
+            </div>
+        </footer>
     
     <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> 
-</body>
 </html>
 
 
