@@ -95,6 +95,11 @@ a:hover {
   width: 100%;
 } 
 
+.container-about {
+	max-width: 1200px;
+	margin: 0 auto;    
+}
+
 .navbar-brand,
 .navbar-nav li a {
     line-height: 50px;
@@ -680,6 +685,19 @@ footer {
       padding-top: 6em;
       padding-bottom: 6em;
     }    
+
+    .profile-img {
+        width: 100%;
+        padding-left: 25px;
+        padding-right: 25px;         
+    } 
+
+    .text-about {
+        display: inline-block;
+        width: 100%;
+        padding-left: 25px;
+        padding-right: 25px;
+    }  
 }
 @media (max-width: 992px) {
   
