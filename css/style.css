@@ -46,6 +46,11 @@ table {
 }
 /********************************/
 
+@font-face {
+    font-family: Avenir;
+    src: url("../designbyjimmy/fonts/Avenir.ttc") format('truetype');
+}
+
 html {
     box-sizing: border-box; 
 }
