@@ -729,4 +729,7 @@ footer {
     .smaller-intro {
         font-size: 1.0em;
     }
+    .intro {
+        height: 80vh;
+    }
 }
