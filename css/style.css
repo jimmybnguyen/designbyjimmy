@@ -45,17 +45,13 @@ table {
 	border-spacing: 0;
 }
 /********************************/
-@font-face {
-    font-family: 'Avenir', sans-serif;
-    src: url("Avenir.ttc");
-}
 
 html {
-    font-family: 'Avenir', sans-serif;;
     box-sizing: border-box; 
 }
 
 body {
+    font-family: "Avenir", san-serif;
     margin: 0; 
     font-weight: 500;
     padding-top: 95px;
