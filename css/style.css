@@ -535,21 +535,6 @@ section {
     height: 1px;  
 }
 
-.contact-info {
-    text-align: center;
-    text-transform: uppercase;
-    line-height: 200%;
-    font-family: 'IM Fell French Canon SC', serif;
-    letter-spacing: 2px;
-}
-
-.contact-info a {
-    text-transform: uppercase;
-    line-height: 200%;
-    font-family: 'IM Fell French Canon SC', serif;
-    color: #fb4f4f;
-}
-
 .portfolio-list {
     padding-top: 10px;
     padding-bottom: 10px;
