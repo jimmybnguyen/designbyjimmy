@@ -26,3 +26,14 @@ i {
 i:hover {
     color: #74C005;
 }
+
+@media (max-width: 768px) {
+    div {
+        top:25%;
+        left:25%;
+        padding:15px;
+        -ms-transform: translateX(-25%) translateY(-25%);
+        -webkit-transform: translate(-25%,-25%);
+        transform: translate(-25%,-25%);
+    }  
+}
