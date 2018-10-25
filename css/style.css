@@ -29,11 +29,11 @@ i:hover {
 
 @media (max-width: 768px) {
     div {
-        top:25%;
-        left:25%;
+        top:50%;
+        left:15%;
         padding:15px;
-        -ms-transform: translateX(-10%) translateY(-10%);
-        -webkit-transform: translate(-10%,-10%);
-        transform: translate(-10%,-10%);
+        -ms-transform: translateX(-10%) translateY(-50%);
+        -webkit-transform: translate(-10%,-50%);
+        transform: translate(-10%,-50%);
     }  
 }
